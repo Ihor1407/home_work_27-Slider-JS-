@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=arrow_left,arrow_right"
+    />
+    <style type="text/tailwindcss">
+      @theme {
+        --color-brand-main: #2d5e5e;
+        --color-brand-accent: #6de1e3;
+      }
+
+      @layer base {
+        .center {
+          @apply max-w-[1174px] mx-auto px-4;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="py-16">
+      <div class="center">
+        <div id="slider" class="max-w-[700px]">
+          <div
+            class="flex flex-wrap gap-8 justify-center items-center bg-brand-accent p-8"
+          >
+            <img class="rounded-full" src="image/girl.jpg" alt="Марина" />
+            <h3>слайд №1 Марина, 25 лет</h3>
+
+            <p class="w-full">
+              Звернулася до Сергія, бо нерви вже були на межі. Ситуація
+              здавалася мені безвихідною – незважаючи на те, що я працюю і
+              навчаюсь. Сама не помітила, як позбулася величезної грудки.
+              Нарешті побачила вихід із ситуації, що склалася, і тепер є
+              надія... Велике спасибі Валентину.
+            </p>
+          </div>
+          <div
+            class="flex flex-wrap gap-8 justify-center items-center bg-brand-accent p-8"
+          >
+            <img class="rounded-full" src="image/girl.jpg" alt="Марина" />
+            <h3>слайд №2 Марина, 25 лет</h3>
+
+            <p class="w-full">
+              Звернулася до Сергія, бо нерви вже були на межі. Ситуація
+              здавалася мені безвихідною – незважаючи на те, що я працюю і
+              навчаюсь. Сама не помітила, як позбулася величезної грудки.
+              Нарешті побачила вихід із ситуації, що склалася, і тепер є
+              надія... Велике спасибі Валентину.
+            </p>
+          </div>
+          <div
+            class="flex flex-wrap gap-8 justify-center items-center bg-brand-accent p-8"
+          >
+            <img class="rounded-full" src="image/girl.jpg" alt="Марина" />
+            <h3>слайд №3 Марина, 25 лет</h3>
+            <p class="w-full">
+              Звернулася до Сергія, бо нерви вже були на межі. Ситуація
+              здавалася мені безвихідною – незважаючи на те, що я працюю і
+              навчаюсь. Сама не помітила, як позбулася величезної грудки.
+              Нарешті побачила вихід із ситуації, що склалася, і тепер є
+              надія... Велике спасибі Валентину.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
+
